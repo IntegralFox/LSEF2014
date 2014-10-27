@@ -1,7 +1,7 @@
 	<body>
 		<header>
 			<img src="img/logo-dark.png" alt="Bridge Logo">
-			<h1>PEUGEOT CENTER</h1>
+			<h1><span>PEUGEOT</span> <span>CENTER</span></h1>
 		</header>
 		<nav>
 			<a href="./">Home</a>
