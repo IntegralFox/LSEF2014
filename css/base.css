@@ -4,8 +4,9 @@ body {
 }
 
 body>header {
-	background-color: gold;
-	color: white;
+	background-color: white;
+	color: #8D1919
+;
 }
 body>header>h1 {
 	font-family: Helvetica, Arial, sans-serif;
@@ -22,15 +23,16 @@ body>header>img {
 
 body>nav,
 body>footer {
-	background-color: gold;
+	background-color: white;
 	display: table;
 	width: 100%;
+	border-radius: 1em;
 }
 body>nav>a:link,
 body>nav>a:visited,
 body>footer>a:link,
 body>footer>a:visited {
-	color: white;
+	color: black;
 	display: table-cell;
 	font-size: 1.1em;
 	font-weight: bold;
@@ -45,8 +47,9 @@ body>nav>a:focus,
 body>footer>a:active,
 body>footer>a:hover,
 body>footer>a:focus {
-	background-color: goldenrod;
+	background-color: #0033CC;
 	text-decoration: none;
+	border-radius: 1em;
 }
 
 @media (max-width: 40em) {
