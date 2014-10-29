@@ -24,11 +24,26 @@ $t->title('Peugeot Center'); // Set the title of the page
 		text-align: left;
 		width: 11.875em;
 	}
+	#relief {
+		background-color: #99cc00;
+		background-image: url('img/logo-light.png');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
+		border-radius: 1.5em;
+		float: right;
+		margin: 1em 0;
+		width: 9em;
+		height: 8em;
+	}
 
 	@media (max-width: 40em) {
 
 	#blurb {
 		width: 23.75%;
+	}
+	#relief {
+		width: 22.5%;
 	}
 
 	}
@@ -40,6 +55,9 @@ $t->title('Peugeot Center'); // Set the title of the page
 		height: auto;
 		width: 100%;
 		float: none;
+	}
+	#relief {
+		display: none;
 	}
 
 	}
@@ -98,6 +116,7 @@ $t->scrapeMeta();
 		<a href="img/8.png"></a>
 	</div>
 </div>
+<div id="relief"></div>
 <?php
 
 $t->scrapeContent();
