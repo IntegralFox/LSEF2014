@@ -29,3 +29,30 @@
 	float: left;
 	margin: 1em 0;
 }
+
+@media (max-width: 40em) {
+
+#slideshow_container {
+	width: 72.5%;
+}
+#slideshow_container2 {
+	width: 75%;
+}
+
+}
+
+@media (max-width: 30em) {
+
+.slideshow {
+	border-radius: 0;
+}
+#slideshow_container {
+	float: none;
+	width: 100%;
+}
+#slideshow_container2 {
+	float: none;
+	width: 100%;
+}
+
+}

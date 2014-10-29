@@ -12,23 +12,23 @@ $t->title('Peugeot Center'); // Set the title of the page
 <link rel="stylesheet" href="css/slideshow.css">
 <style>
 	#blurb {
-		box-sizing: border-box;
 		background-color: #99cc00;
-		color:white;
-		padding: 1em;
-		width: 9.5em;
-		height:19em;
+		border-radius: 1.875em;
+		box-sizing: border-box;
+		color: white;
 		float: left;
-		border-radius: 1.5em;
-		margin-top: 1em;
-		text-align: justify;
+		font-size: 0.8em;
+		height: 23.75em;
+		margin-top: 1.25em;
+		padding: 1.25em;
+		text-align: left;
+		width: 11.875em;
 	}
 
 	@media (max-width: 40em) {
 
 	#blurb {
-		width: 25%;
-		float: left;
+		width: 23.75%;
 	}
 
 	}
@@ -36,6 +36,8 @@ $t->title('Peugeot Center'); // Set the title of the page
 	@media (max-width: 30em) {
 
 	#blurb {
+		border-radius: 0;
+		height: auto;
 		width: 100%;
 		float: none;
 	}
@@ -59,8 +61,8 @@ $t->title('Peugeot Center'); // Set the title of the page
 			.css('background-image', 'url("' + $(this).attr('href') + '")');
 		});
 		setInterval(function() {
-			$('#slideshow .slide').first().css('bottom', '100%').appendTo('#slideshow')
-			.animate({'bottom': '0%'}, 1000, 'swing');
+			$('#slideshow .slide').first().css('left', '100%').appendTo('#slideshow')
+			.animate({'left': '0%'}, 1000, 'swing');
 		}, 4000);
 
 		var slides = $('#slideshow2 a').remove().each(function() {
