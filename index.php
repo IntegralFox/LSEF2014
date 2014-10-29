@@ -10,14 +10,14 @@ $t->title('Peugeot Center'); // Set the title of the page
 <style>
 	#blurb {
 		box-sizing: border-box;
-		background-color: #008F00;
+		background-color: #99cc00;
 		color:white;
 		padding: 1em;
 		width: 9.5em;
 		height:19em;
 		float: left;
 		border-radius: 1.5em;
-		margin-top:1em;
+		margin-top: 1em;
 		text-align: right;
 	}
 	#slideshow {

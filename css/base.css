@@ -4,9 +4,7 @@ body {
 }
 
 body>header {
-	background-color: white;
-	color: #8D1919
-;
+	color: #8D1919;
 }
 body>header>h1 {
 	font-family: Helvetica, Arial, sans-serif;
@@ -23,10 +21,15 @@ body>header>img {
 
 body>nav,
 body>footer {
-	background-color: white;
 	display: table;
 	width: 100%;
 	border-radius: 1em;
+}
+body>nav {
+	border-bottom: 1px solid black;
+}
+body>footer {
+	border-top: 1px solid black;
 }
 body>nav>a:link,
 body>nav>a:visited,
@@ -47,9 +50,12 @@ body>nav>a:focus,
 body>footer>a:active,
 body>footer>a:hover,
 body>footer>a:focus {
-	background-color: #0033CC;
+	color: #8D1919;
 	text-decoration: none;
-	border-radius: 1em;
+}
+body>nav>a>img {
+	height: 1em;
+	vertical-align: middle;
 }
 
 @media (max-width: 40em) {
