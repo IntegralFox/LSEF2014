@@ -58,6 +58,14 @@ body>nav>a>img {
 	vertical-align: middle;
 }
 
+body>main>hr {
+	border: 0;
+	clear:both;
+	width: 100%;
+	height: 1px;
+	background-color: black;
+}
+
 @media (max-width: 40em) {
 
 body {
