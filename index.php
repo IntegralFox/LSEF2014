@@ -14,12 +14,11 @@ $t->title('Peugeot Center'); // Set the title of the page
 		box-sizing: border-box;
 		color: white;
 		float: left;
-		font-size: 0.8em;
-		height: 23.75em;
-		margin-top: 1.25em;
+		height: 19em;
+		margin-top: 1em;
 		padding: 1.25em;
 		text-align: left;
-		width: 11.875em;
+		width: 10em;
 	}
 	#relief {
 		background-color: #99cc00;
@@ -48,6 +47,7 @@ $t->title('Peugeot Center'); // Set the title of the page
 	@media (max-width: 30em) {
 
 	#blurb {
+		font-size: 1.2em;
 		border-radius: 0;
 		height: auto;
 		width: 100%;
