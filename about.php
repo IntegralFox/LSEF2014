@@ -43,7 +43,7 @@ $t->title('Peugeot Center'); // Set the title of the page
 
 $t->scrapeMeta();
 
-?><div id="blurb">
+?><p id="blurb">
 <h1>Who are we?</h1>
 <p>The Richard S. and Mary Ann Brown Peugeot Center for Engineering 
 Service to Developing Communities, founded in 2014, is a center that 
@@ -63,7 +63,7 @@ States to construct clean water systems, develop alternative energy
 solutions, and build a total of four bridges. We hope not only to affect 
 those in developing communities but to also affect the students and 
 professional workers carrying out the service by developing a desire to 
-serve and growing in spirituality.</p></div>
+serve and growing in spirituality.</p></p>
 <?php
 
 $t->scrapeContent();
