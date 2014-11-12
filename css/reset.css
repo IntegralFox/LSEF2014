@@ -64,10 +64,10 @@ table {
 	border-spacing: 0;
 }
 a, a:link, a:visited {
-	text-decoration: none;
-	color: #303030;
+	text-decoration: underline;
+	color: #8080E0;
 }
 a:hover, a:active {
 	text-decoration: underline;
-	color: #444;
+	color: #A0A0F0;
 }

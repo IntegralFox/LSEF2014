@@ -6,9 +6,6 @@ $t = new Slag(); // Create new template object
 $t->title('Peugeot Center'); // Set the title of the page
 
 ?>
-<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <link rel="stylesheet" href="css/slideshow.css">
 <style>
 	#blurb {
