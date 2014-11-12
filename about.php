@@ -6,7 +6,6 @@ $t = new Slag(); // Create new template object
 $t->title('Peugeot Center'); // Set the title of the page
 
 ?>
-<link rel="stylesheet" href="css/slideshow.css">
 <style>
 	#blurb {
 		background-color: #99cc00;
