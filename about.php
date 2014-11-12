@@ -7,6 +7,37 @@ $t->title('Peugeot Center'); // Set the title of the page
 
 ?>
 <style>
+	#blurb {
+		background-color: #99cc00;
+		border-radius: 1.875em;
+		box-sizing: border-box;
+		color: white;
+		float: left;
+		font-size: 0.8em;
+		height: 23.75em;
+		margin-top: 1.25em;
+		padding: 1.25em;
+		text-align: left;
+		width: 11.875em;
+	}
+
+	@media (max-width: 40em) {
+
+	#blurb {
+		width: 23.75%;
+	}
+
+
+	@media (max-width: 30em) {
+
+	#blurb {
+		border-radius: 0;
+		height: auto;
+		width: 100%;
+		float: none;
+	}
+
+	}
 </style>
 <?php
 
