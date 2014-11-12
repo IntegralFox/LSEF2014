@@ -36,6 +36,7 @@ body>nav>a:visited {
 	line-height: 1;
 	padding: 0.3em 0;
 	text-align: center;
+	text-decoration: none;
 	width: 20%;
 }
 body>nav>a:active,
