@@ -6,6 +6,35 @@ $t = new Slag(); // Create new template object
 $t->title('Peugeot Center'); // Set the title of the page
 
 ?>
+<style>
+	form {
+		background-size: cover;
+		box-sizing: border-box;
+		border-radius: 1em;
+		padding: 1em;
+		margin: 2em 0; 
+		width: 100%;
+	}
+	#email {
+		background-image: url(img/13.png);
+	}
+	main input,
+	main textarea {
+		display: block;
+		font-size: 16px;
+		line-height: 1.3;
+		margin: 3em auto;
+		padding: 0.7em;
+		width: 80%;
+	}
+	main textarea {
+		resize: vertical;
+		min-height: 5em;
+	}
+	#newsletter {
+		background-image: url(img/11.png);
+	}
+</style>
 <script>
 	var email = 'csimmons@liscomb.edu';
 	$(document).ready(function() {
@@ -19,15 +48,13 @@ $t->title('Peugeot Center'); // Set the title of the page
 $t->scrapeMeta();
 
 ?>
-<h1>Emails to Us</h1>
-<form>
-	<input type="text" id="subject" placeholder="Enter a Subject"><br>
-	<textarea id="body" placeholder="Enter a Message"></textarea><br>
+<form id="email">
+	<input type="text" id="subject" placeholder="Enter a Subject">
+	<textarea id="body" placeholder="Enter a Message"></textarea>
 	<input type="button" id="send" value="Send">
 </form>
-<h1>Newsletters to You</h1>
-<form action="contact.php" method="POST">
-	<input type="email" name="email" placeholder="Enter Your Email">
+<form id="newsletter" action="contact.php" method="POST">
+	<input type="email" name="email" placeholder="Sign up for our Newsletter">
 	<input type="submit" value="Sign Up">
 </form>
 <?php
