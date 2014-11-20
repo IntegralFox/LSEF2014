@@ -59,7 +59,19 @@ $t->scrapeMeta();
 </form>
 <?php
 
-$t->scrapeContent();
+if ($_SERVER['REQUEST_METHOD'] == 'GET') {
+	$t->scrapeContent();
+} else {
+	$t->discardBuffer();
+
+?>
+<form>
+	<h1>Thanks for Subscribing!</h1>
+</form>
+<?php
+	$t->scrapeContent();
+}
+
 $t->flush(); // Wipe the buffer and output the template with scraped data
 
 ?>
